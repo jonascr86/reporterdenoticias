@@ -65,9 +65,9 @@ $categoria = obterCategoria($post);
 
                 <?php // get_template_part('partes/content', 'noticias_relacionadas'); Verificar necessidade posteriormente ?>
 
-                <?php get_template_part('partes/content', 'comments'); ?>
+                <?php // get_template_part('partes/content', 'comments'); ?>
 
-                <?php get_template_part('partes/content', 'comment_form'); ?>
+                <?php // get_template_part('partes/content', 'comment_form'); ?>
 
             </div> <!-- //row -->
         </div> <!-- //col-sm-9 -->  
