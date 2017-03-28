@@ -50,7 +50,10 @@
     <a href="#" class="close-offcanvas"><i class="fa fa-remove"></i></a>
     <div class="offcanvas-inner">
         <ul>
-            
+            <?php 
+                $params = ['menu_class' => 'megamenu-parent'];
+                getMenu($params);
+            ?>
         </ul>
     </div>
 </div>
