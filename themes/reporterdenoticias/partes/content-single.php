@@ -33,7 +33,9 @@ $categoria = obterCategoria($post);
                     <div class="col-sm-12 content-single">
                         <?php if (has_post_thumbnail()) : the_post_thumbnail('noticia-thumbnail_post'); ?>
                         <?php else: ?>
-                            <?php @video_destacado(); ?>
+                            <div class="article-video">
+                                <?php @video_destacado(); ?>
+                            </div>
                         <?php endif; ?>
                         <!--<img src="<?php // echo get_template_directory_uri();  ?>/img/post-details/post-image01.jpg" class="img-100p" alt="img">-->
                         <h2 class="main-entry-title"><?php the_title(); ?></h2>
