@@ -10,7 +10,7 @@
         <i class="fa fa-comments-o"></i>
         <div class="post-meta-info-list-in comments-in">
             <p>Comentários</p>
-            <?php echo get_comment_count($post->ID)['approved']; ?>
+            <?php comments_number('Sem comentário', 'Um comentário', '% comentários'); ?>
         </div>
     </div>
     <div class="post-meta-info-list category">
