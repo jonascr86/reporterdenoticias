@@ -29,11 +29,8 @@
                     <div class="simple-article-overlay">
 
                         <?php if (have_posts()) : while (have_posts()) : the_post() ?>
-                                <?php get_template_part('partes/content', 'category'); ?>
-                            <?php
-                            endwhile;
-                        endif;
-                        ?>
+                            <?php get_template_part('partes/content', 'category'); ?>
+                        <?php endwhile; endif; ?>
                     </div> <!-- //simple-article-overlay -->
                 </div> <!-- //row -->
             </div> <!-- //col-sm-9 -->  

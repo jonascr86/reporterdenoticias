@@ -69,11 +69,10 @@ $categoria = obterCategoria($post);
 
                 <?php // get_template_part('partes/content', 'comment_form'); ?>
 
-            </div> <!-- //row -->
-        </div> <!-- //col-sm-9 -->  
-
+            </div> <!-- //col-sm-9 -->  
+        </div> <!-- //row -->
         <?php get_sidebar(); ?>
+
     </div> <!-- //row -->
-</div> <!-- //container -->
 </section>
 <!--====  End of MAIN WRAPPER  ====-->
