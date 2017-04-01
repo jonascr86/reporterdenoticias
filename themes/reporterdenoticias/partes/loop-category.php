@@ -37,6 +37,7 @@
                     </div> <!-- //simple-article-overlay -->
                 </div> <!-- //row -->
             </div> <!-- //col-sm-9 -->  
+            <?php get_sidebar(); ?>
         </div> <!-- //row -->
     </div> <!-- //container -->
 </section>

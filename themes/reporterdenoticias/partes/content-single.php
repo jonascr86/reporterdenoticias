@@ -72,9 +72,7 @@ $categoria = obterCategoria($post);
             </div> <!-- //row -->
         </div> <!-- //col-sm-9 -->  
 
-        <div class="col-sm-3">
-            <!--Propagandas aqui-->          
-        </div> <!-- //col-sm-3 -->
+        <?php get_sidebar(); ?>
     </div> <!-- //row -->
 </div> <!-- //container -->
 </section>
