@@ -67,7 +67,7 @@ $categoria = obterCategoria($post);
 
                 <?php comments_template(); ?>
 
-                <?php get_template_part('partes/content', 'comment_form'); ?>
+                <?php // get_template_part('partes/content', 'comment_form'); ?>
 
             </div> <!-- //row -->
         </div> <!-- //col-sm-9 -->  
