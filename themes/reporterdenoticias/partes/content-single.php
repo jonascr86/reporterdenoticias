@@ -53,16 +53,6 @@ $categoria = obterCategoria($post);
 
                 </div> 
 
-
-                <!-- Advertisement two -->
-                <div class="advertisement">
-                    <div class="row">
-                        <div class="col-sm-12 mtt50 mtb60">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/large-ad2.jpg" alt="advertisement">
-                        </div>
-                    </div>
-                </div> <!-- //Advertisement two -->
-
                 <?php // get_template_part('partes/content', 'noticias_relacionadas'); Verificar necessidade posteriormente ?>
 
                 <?php comments_template(); ?>

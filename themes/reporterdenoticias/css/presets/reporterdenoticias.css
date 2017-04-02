@@ -6,10 +6,37 @@ div #logo{
     height:135px;
     background-image: url(../../img/logo.png);
     background-size:100% 100%;
+    margin-right: 50px;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     -khtml-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
+}
+
+div #previsao{
+    width:100px;
+    height:85px;
+    margin-top: 30px;
+    background-image: url(../../img/previsao_tempo.png);
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+div .info-datahora, div .info-datahora>p>a{
+    margin-top: 90px;
+    color: #b9b9b9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div #hora{
+    padding-left: 0px;
+}
+
+div #data>p{
+    padding-left: 35px;
 }
 
 /*

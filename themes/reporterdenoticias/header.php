@@ -38,7 +38,22 @@
                     <div class="container">
                         <div class="row">
                             <div id="logo" class="col-xs-4 col-sm-3 col-md-3 hidden-sm hidden-xs"></div>
-                            <div class="col-sm-10 col-md-8">
+                            <div id="data" class="col-xs-1 col-sm-1 col-md-1 hidden-sm hidden-xs info-datahora">
+                                <p>
+                                    <span id='clock_tm' >Hora Atual</span><br> 
+                                    <span id='clock_dt' >Data Atual</span>
+				    <script language='javascript'>
+                                        StartClock('d/m/Y','H:i:s');
+                                    </script>
+                                </p>
+                            </div>
+                            <div id="previsao" class="col-xs-4 col-sm-3 col-md-3 hidden-sm hidden-xs"></div>
+                            <div id="hora" class="col-xs-1 col-sm-1 col-md-1 hidden-sm hidden-xs info-datahora">
+                                <p>
+                                    <script src="http://www.univates.br/sistemas_mkt/temperatura/temperatura.php"></script>
+                                </p>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
                                 <div class="top-right">
                                     <div class="newedge-date">
                                         <span>	

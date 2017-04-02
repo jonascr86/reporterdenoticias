@@ -34,6 +34,9 @@ function reporterdenoticias_enqueue_scripts() {
 
     //custom
     wp_enqueue_script('main', get_stylesheet_directory_uri() . "/js/main.js");
+    
+    //data e hora
+    wp_enqueue_script('data-hora', get_stylesheet_directory_uri() . "/js/clock.js");
 }
 
 add_theme_support('post-thumbnails');
