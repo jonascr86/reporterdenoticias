@@ -408,13 +408,13 @@ button{
 
 /*page-title*/
 #page-title .page-title-wrapper{
-	background-image: url(../img/sub-header/subheader-1.jpg);
+	background-image: url(../img/azul01.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	color: #fff;
-	padding: 70px 0;
+	padding: 40px 0;
 }
 #page-title .page-title-wrapper2{
 	background-image: url(../img/sub-header/subheader-2.jpg);

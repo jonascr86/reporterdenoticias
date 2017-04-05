@@ -16,7 +16,7 @@
         <meta name="author" content="">
 
         <!-- FAVICON -->
-        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

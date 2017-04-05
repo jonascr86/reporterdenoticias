@@ -25,6 +25,10 @@ div #previsao{
     -moz-background-size: 100% 100%;
 }
 
+.cat-icon {
+    background-color: rgb(4, 78, 23);
+}
+
 div .info-datahora, div .info-datahora>p>a{
     margin-top: 90px;
     color: #b9b9b9;
