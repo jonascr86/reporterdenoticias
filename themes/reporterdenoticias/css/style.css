@@ -579,21 +579,22 @@ button{
 
 /* top-bar *****************************/
 #newedge-top-bar{
-	border-bottom: 1px solid #e9eaed;
+	border-bottom: 5px solid #050132;
+        background-color: rgba(0, 15, 58, 0.89);
 }
 .newedge-date{
 	color : #b9b9b9;
 	padding-right: 20px;
 }
 .top-right{
+        margin-top: 40px;
 	display: table;
 	float: right;
 	height: 65px;
 }
 .top-right>div{
-	display: table-cell;
+    display: table-cell;
     vertical-align: middle;
-    border-right: 1px solid #e9eaed;
 }
 .newedge-login{
 	font-size: 18px;
@@ -607,7 +608,7 @@ button{
 	color: #b9b9b9;
 }
 .newedge-search{
-	padding: 0 20px;
+    padding: 0 20px;
 }
 .newedge-search .search-icon-wrapper{
 	font-size: 18px;

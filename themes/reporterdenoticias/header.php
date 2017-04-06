@@ -54,27 +54,10 @@
                                 </p>
                             </div>
                             <div class="col-sm-6 col-md-4">
-                                <div class="top-right">
-                                    <div class="newedge-date">
-                                        <span>	
-                                            <?php mostraData(); ?> 
-                                        </span>
-                                    </div> <!-- //date -->
-
-                                    <?php // get_template_part('partes/language'); Esta parte pode ser adicionada posteriormente ?>
-                                    <?php // get_template_part('partes/login'); Esta parte pode ser adicionada posteriormente ?>
-                                    
-                                    <div class="newedge-search">
-                                        <div class="search-icon-wrapper">
-                                            <i class="fa fa-search"></i>
-                                        </div>
-                                        <div class="search-wrapper">
-                                            <form action="#" method="post">
-                                                <input name="searchword" maxlength="200" class="inputboxnewedge-top-search" type="text" size="20" placeholder="Search ...">
-                                                <i id="search-close" class="fa fa-close"></i>
-                                            </form>
-                                        </div> <!-- //search-wrapper -->
-                                    </div> <!-- //search -->
+                                <div class="top-search">
+                                    <form action="#" method="post">
+                                        <input class="form-control input-lg" type="text" placeholder="Busca ...">
+                                    </form>
                                 </div> <!-- //top-right -->
                             </div>
                             <?php get_template_part('partes/loop', 'patrocinio_topo'); ?>

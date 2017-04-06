@@ -25,6 +25,15 @@ div #previsao{
     -moz-background-size: 100% 100%;
 }
 
+.navigation {
+    background-color: #000f3a;
+    z-index: 15;
+}
+
+.top-search{
+    margin-top: 40px;
+}
+
 .cat-icon {
     background-color: rgb(4, 78, 23);
 }
@@ -47,7 +56,7 @@ div #data>p{
 Mudando as cores do menu
 */
 .megamenu-parent li>a {
-    color: #1c84c7;
+    color: #fff;
 }
 
 /*
