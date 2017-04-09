@@ -15,6 +15,10 @@
         <meta name="description" content="Informação com credibilidade.">
         <meta name="author" content="Repórter de Notícias">
         <meta name="generator" content="WordPress 4.7.3" />
+        
+        <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" sizes="32x32" />
+        <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" />
         <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" />
 
         <!-- FAVICON -->
