@@ -12,8 +12,10 @@
             ?>
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Informação com credibilidade.">
+        <meta name="author" content="Repórter de Notícias">
+        <meta name="generator" content="WordPress 4.7.3" />
+        <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" />
 
         <!-- FAVICON -->
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
