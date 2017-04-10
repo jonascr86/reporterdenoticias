@@ -16,7 +16,7 @@
 
 <section id="contatos">
     <div class="row">
-        <div class="col-md-2 col-md-offset-3">
+        <div class="col-md-3 col-md-offset-3">
             <div class="img-contatos">
                 <a href="https://www.facebook.com/reporterdenoticias/">
                     <img class="img-100p latest-post-image" src="<?php echo get_template_directory_uri(); ?>/img/facebook-logo-300x129.png" alt="Facebook">
