@@ -28,7 +28,7 @@
                     <div class="social-wrapper">
                         <h3 class="title">Redes Sociais</h3>
                         <ul class="social-icons">
-                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/reporterdenoticias/"><i class="fa fa-facebook"></i> Facebook</a></li>
                         </ul>
                     </div>
                 </div> <!-- //bottom4 -->

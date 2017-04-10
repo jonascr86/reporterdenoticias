@@ -415,6 +415,7 @@ button{
 	background-repeat: no-repeat;
 	color: #fff;
 	padding: 40px 0;
+        border-top: solid 5px #050132;
 }
 #page-title .page-title-wrapper2{
 	background-image: url(../img/sub-header/subheader-2.jpg);

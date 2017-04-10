@@ -13,6 +13,13 @@ div #logo{
     -moz-background-size: 100% 100%;
 }
 
+.img-contatos{
+    margin: 30px;
+    height: 100px;
+    width: 300px;
+    background-color: #000;
+}
+
 div #previsao{
     width:100px;
     height:85px;
