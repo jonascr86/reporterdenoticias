@@ -255,3 +255,9 @@ function getMenu($params = []) {
 
     return $menu;
 }
+
+function getTemperatura(){
+    $teste = file_get_contents("https://www.univates.br/nih/");
+    preg_match_all("~<(?:(span)).*temp.*?>(.*)<\/\\1>~", $teste, $conteudo);
+    return $conteudo[0][1];
+}

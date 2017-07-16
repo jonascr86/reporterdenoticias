@@ -1,6 +1,12 @@
 <?php 
     $categoria = obtercategoriaUrl();
     $letra = obterPrimeiraLetra($categoria);
+    
+    $params = [
+        'category_name' => obterCatUrl(),
+    ];
+
+    $query = reporterdenoticias_wp_query($params);
 ?>
 <section id="page-title">
     <div class="row">
@@ -28,7 +34,7 @@
                 <div class="row">
                     <div class="simple-article-overlay">
 
-                        <?php if (have_posts()) : while (have_posts()) : the_post() ?>
+                        <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post() ?>
                             <?php get_template_part('partes/content', 'category'); ?>
                         <?php endwhile; endif; ?>
                     </div> <!-- //simple-article-overlay -->
