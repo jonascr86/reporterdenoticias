@@ -15,14 +15,14 @@
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Informação com credibilidade.">
+        <meta name="description" content="<?php echo get_bloginfo('description'); ?>">
         <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" sizes="32x32" />
         <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" sizes="192x192" />
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" />
         <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" />
-        <meta property="og:title" content="Repórter de Notícias"/> 
+        <meta property="og:title" content="<?php echo get_bloginfo('name') ?>"/> 
         <meta property="og:url" content="<?php echo get_site_url(); ?>" /> 
-        <meta property="og:description" content="Informação com cerdibilidade" /> 
+        <meta property="og:description" content="<?php echo get_bloginfo('description'); ?>" /> 
         <meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/rep_de_notic_300x300.png" /> 
         <meta property="og:locale" content="pt_BR" />
         <meta property="og:locale:alternate" content="en_US" />

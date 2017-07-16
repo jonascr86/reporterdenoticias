@@ -32,12 +32,3 @@
 		Require all granted
 	</IfModule>
 </FilesMatch>
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /sites/marcelocardoso/
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /sites/marcelocardoso/index.php [L]
-</IfModule>
